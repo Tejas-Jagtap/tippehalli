@@ -25,7 +25,7 @@ const TopBar = () => {
   };
 
   const content = {
-    phone: language === "mr" ? "+९१-९५७९४५५८४८" : "+91-9579455848",
+    phone: language === "en" ? "+91-9579455848" : "+९१-९५७९४५५८४८",
     email: "tippehalligrampanchayat@gmail.com",
     langButton: language === "mr" ? "English" : "मराठी",
   };
