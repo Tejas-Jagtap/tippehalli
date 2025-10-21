@@ -103,25 +103,7 @@ export default function AdministrationPage() {
   ];
 
   // const administrativeStaff = [
-  //   {
-  //     id: 7,
-  //     MarathiName: "संतोष भिमराव पाटील",
-  //     EnglishName: "Santosh Bhimrao Patil",
-  //     position: "पोलीस पाटील /Police Patil",
-  //     image: "/images/official3.jpg",
-  //     phone: "+91-9270001001",
-  //     phoneDevnagari: "+९१-९२७०००१००१",
-  //   },
-  //   {
-  //     id: 8,
-  //     MarathiName: "संतोष जयवंत जगताप ",
-  //     EnglishName: "Santosh Jaywant Jagtap",
-  //     position:
-  //       "तंटामुक्ती अध्यक्ष / President, Dispute-Free Village Committee",
-  //     image: "/images/official3.jpg",
-  //     phone: "+91-9689845978",
-  //     phoneDevnagari: "+९१-९६८९८४५९७८",
-  //   },
+
   // ];
 
   const committees = [
@@ -183,7 +165,7 @@ export default function AdministrationPage() {
                 className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
               >
                 <div className="bg-gradient-to-r from-government-blue to-government-green p-4 text-white text-center">
-                  <div className="w-24 h-24 mx-auto mb-3 rounded-full overflow-hidden border-4 border-white">
+                  <div className="w-24 h-24 mx-auto mb-3 rounded-full overflow-hidden">
                     <Image
                       src={member.image}
                       alt={"member.name"}
