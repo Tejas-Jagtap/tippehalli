@@ -23,7 +23,7 @@ export default function AdministrationPage() {
       MarathiName: "राजाराम प्रभाकर शिंदे",
       EnglishName: "Rajaram Prabhakar Shinde",
       positionKey: "सरपंच / Sarpanch",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/Profile_Picture/tippehalli/राजाराम प्रभाकर शिंदे.jpeg",
       phone: "+91-9049339477",
       phoneDevnagari: "+९१-९०४९३३९४७७",
       email: "rajaramshinde74470@gmail.com",
@@ -33,7 +33,7 @@ export default function AdministrationPage() {
       MarathiName: "धनेश भारत शिवशरण",
       EnglishName: "Dhanesh Bharat Shivsharan",
       positionKey: "उप-सरपंच / Deputy Sarpanch",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/Profile_Picture/tippehalli/उपसरपंच.jpeg",
       phone: "+91-8080378171",
       phoneDevnagari: "+९१-८०८०३७८१७१",
       email: "dhaneshshivasharan@gmail.com",
@@ -55,7 +55,7 @@ export default function AdministrationPage() {
       MarathiName: "संतोष सुभाष शिंदे",
       EnglishName: "Santosh Subhash Shinde",
       positionKey: "सदस्य / Member",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/Profile_Picture/tippehalli/संतोष सूभाष शिंदे.jpeg",
       phone: "+91-9529956767",
       phoneDevnagari: "+९१-९५२९९५६७६७",
       email: "santoshshinde@gmail.com",
@@ -75,7 +75,7 @@ export default function AdministrationPage() {
       MarathiName: "संस्कृती श्रीपती शिंदे",
       EnglishName: "Sanskruti Shripati Shinde",
       positionKey: "सदस्य / Member",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/Profile_Picture/tippehalli/संस्रकती श्रीपती शिंदे.jpeg",
       phone: "+91-8788878050",
       phoneDevnagari: "+९१-८७८८८७८०५०",
       email: "sanskrutishinde407@gmail.com",
@@ -95,7 +95,7 @@ export default function AdministrationPage() {
       MarathiName: "सुजाता प्रकाश चव्हाण",
       EnglishName: "Sujata Prakash Chavan",
       positionKey: "सदस्य / Member",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/Profile_Picture/tippehalli/सूजाता प्रकाश चव्हाण.jpeg",
       phone: "+91-8010532672",
       phoneDevnagari: "+९१-८०१०५३२६७२",
       email: "sujatashinde@gmail.com",
@@ -103,25 +103,7 @@ export default function AdministrationPage() {
   ];
 
   // const administrativeStaff = [
-  //   {
-  //     id: 7,
-  //     MarathiName: "संतोष भिमराव पाटील",
-  //     EnglishName: "Santosh Bhimrao Patil",
-  //     position: "पोलीस पाटील /Police Patil",
-  //     image: "/images/official3.jpg",
-  //     phone: "+91-9270001001",
-  //     phoneDevnagari: "+९१-९२७०००१००१",
-  //   },
-  //   {
-  //     id: 8,
-  //     MarathiName: "संतोष जयवंत जगताप ",
-  //     EnglishName: "Santosh Jaywant Jagtap",
-  //     position:
-  //       "तंटामुक्ती अध्यक्ष / President, Dispute-Free Village Committee",
-  //     image: "/images/official3.jpg",
-  //     phone: "+91-9689845978",
-  //     phoneDevnagari: "+९१-९६८९८४५९७८",
-  //   },
+
   // ];
 
   const committees = [
@@ -183,9 +165,9 @@ export default function AdministrationPage() {
                 className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
               >
                 <div className="bg-gradient-to-r from-government-blue to-government-green p-4 text-white text-center">
-                  <div className="w-24 h-24 mx-auto mb-3 rounded-full overflow-hidden border-4 border-white">
+                  <div className="w-24 h-24 mx-auto mb-3 rounded-full overflow-hidden">
                     <Image
-                      src={"/images/Seal_of_Maharashtra.svg.png"}
+                      src={member.image}
                       alt={"member.name"}
                       width={500}
                       height={500}
