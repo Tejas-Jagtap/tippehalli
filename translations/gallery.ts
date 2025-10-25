@@ -49,6 +49,10 @@ export const galleryTranslations = {
     mr: "कार्यालय",
     en: "office",
   },
+  "gallery.other": {
+    mr: "इतर",
+    en: "other",
+  },
   "gallery.office": {
     mr: "तिप्पेहळळी  ग्रामपंचायत  कार्यालय",
     en: "Tippehalli Grampanchayat office",

@@ -16,15 +16,58 @@ export default function GalleryPage() {
     { id: "schemes", nameKey: "gallery.schemes" },
     { id: "festivals", nameKey: "gallery.festivals" },
     { id: "office", nameKey: "gallery.officeTitle" },
+    { id: "other", nameKey: "gallery.other" },
   ];
 
   const images = [
     {
       id: 1,
-      category: "office",
+      category: "other",
       titleKey: "gallery.office",
       date: "14 Oct 2025",
-      src: "/images/Seal_of_Maharashtra.svg.png",
+      src: "/images/hero1.jpg",
+    },
+    {
+      id: 2,
+      category: "other",
+      titleKey: "gallery.office",
+      date: "14 Oct 2025",
+      src: "/images/hero2.jpg",
+    },
+    {
+      id: 3,
+      category: "other",
+      titleKey: "gallery.office",
+      date: "14 Oct 2025",
+      src: "/images/hero3.jpg",
+    },
+    {
+      id: 4,
+      category: "other",
+      titleKey: "gallery.office",
+      date: "14 Oct 2025",
+      src: "/images/hero4.jpg",
+    },
+    {
+      id: 5,
+      category: "other",
+      titleKey: "gallery.office",
+      date: "14 Oct 2025",
+      src: "/images/hero5.jpg",
+    },
+    {
+      id: 6,
+      category: "other",
+      titleKey: "gallery.office",
+      date: "14 Oct 2025",
+      src: "/images/hero6.jpg",
+    },
+    {
+      id: 7,
+      category: "other",
+      titleKey: "gallery.office",
+      date: "14 Oct 2025",
+      src: "/images/hero7.jpg",
     },
   ];
 
@@ -134,12 +177,12 @@ export default function GalleryPage() {
                   <FaImage className="text-white text-4xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
               </div>
-              <div className="p-3 sm:p-4">
+              {/* <div className="p-3 sm:p-4">
                 <h3 className="font-bold text-government-blue mb-1 line-clamp-1 text-sm sm:text-base">
                   {t(image.titleKey)}
                 </h3>
                 <p className="text-xs text-gray-500">{image.date}</p>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>

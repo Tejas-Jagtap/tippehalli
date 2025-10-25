@@ -14,7 +14,25 @@ const Gallery = () => {
       id: 1,
       titleKey: "gallery.office",
       categoryKey: "gallery.item1.category",
-      src: "/images/photo1.jpeg",
+      src: "/images/hero1.jpg",
+    },
+    {
+      id: 2,
+      titleKey: "gallery.office",
+      categoryKey: "gallery.item1.category",
+      src: "/images/hero2.jpg",
+    },
+    {
+      id: 3,
+      titleKey: "gallery.office",
+      categoryKey: "gallery.item1.category",
+      src: "/images/hero3.jpg",
+    },
+    {
+      id: 4,
+      titleKey: "gallery.office",
+      categoryKey: "gallery.item1.category",
+      src: "/images/hero4.jpg",
     },
   ];
 
@@ -47,9 +65,6 @@ const Gallery = () => {
                   <div className="absolute inset-0 bg-[#0A1931] bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-200"></div>
                 </div>
                 <div className="p-4 bg-white">
-                  <h3 className="font-semibold text-2xl text-government-blue mb-1">
-                    {t(image.titleKey)}
-                  </h3>
                   {/* <p className="text-lg text-gray-600">
                     {t(image.categoryKey)}
                   </p> */}
